@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+\usepackage{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{amsfonts}
+\newcommand\mypound{\scalebox{0.8}{\raisebox{0.4ex}{\#}}}
+
+\setlength{\droptitle}{-11em}
+
+\title{\textbf{Homework Problem Set \mypound 1}}
+
+
+\author{Harvey Mudd College}
+\date{January 2020}
+
+\begin{document}
+
+\maketitle
+
+\large{} Let $R$ be a ring with identity $1\neq0.$
+
+\section*{\hspace{-0.6cm}7.3.1\Large{} \normalfont Prove that the rings $2\mathbb{Z}$ and $3\mathbb{Z}$ are not isomorphic}
+
+\newpage
+
+\section*{\hspace{-1.55cm}7.3.10\Large{} \normalfont Decide which of the following are ideals of the ring $\mathbb{Z}[x]$:
+\\
+\\\large \hspace*{-1cm} (a) the set of all polynomials whose constant term is a multiple of 3.
+\\
+         \hspace*{-1cm} (b) the set of all polynomials whose coefficient of $x^2$ is a multiple of  3.
+\\
+         \hspace*{-1cm} (c) the set of all polynomials whose constant term, coefficient of $x$ and \hspace*{-0.16cm}coefficient of $x^2$ are zero.
+\\
+         \hspace*{-1cm} (d) $\mathbb{Z}[x]$ (i.e., the polynomials in which only even powers of $x$ appear).
+\\      
+         \hspace*{-1cm} (e) the set of polynomials whose coefficients sum to zero.
+\\       
+         \hspace*{-1cm} (f) the set of polynomials $p(x)$ such that $p'(0)=0$, where $p'(x)$ is the \\ 
+         \hspace*{-0.4cm} usual first derivative of $p(x)$ with respect to $x$.}
+         
+\newpage
+
+\color{red}
+\section*{\hspace{-1cm}7.3.19\Large{} \color{black} \normalfont Prove that if $I_1\subseteq I_2 \subseteq ...$ are ideals of $R$ then {\cup_{n=1}}^ \infty \textit{$I_n$} \text{ is an ideal of $R$.}} \color{black}
+
+\newpage
+
+\section*{\hspace{-2.2cm}7.3.26\Large{} \normalfont The $characteristic$ of a ring $R$ is the smallest positive integer n such that \begin{equation*}
+    \underbrace{
+        1+1+\ldots+1=0
+    }_{n \text{ times}}
+\end{equation*}
+in $R$; if no such integer exists the characteristic of $R$ is said to be 0. For example,
+$\mathbb{Z}$/\textit{n}$\mathbb{Z}$ is a ring of characteristic n for each positive integer $n$ and $\mathbb{Z}$ is a ring of characteristic 0.
+\\ 
+\\ \hspace*{-2cm} (a) Prove that the map $\mathbb{Z} \to \mathbb{R}$ defined by
+\begin{equation*}
+            k \mapsto
+            \begin{cases}
+                1 + 1 + \ldots + 1  \; (k \text{ times})
+                        & \text{if } k>0 \\
+                0
+                        & \text{if } k=0 \\
+                -1 - 1 - \ldots - 1  \; (-k \text{ times})
+                        & \text{if } k<0 \\
+            \end{cases}
+        \end{equation*}
+\\ is a ring homomorphism whose kernel is \textit{n}$\mathbb{Z}$, where $n$ is the characteristic of $R$ (this explains the use of the terminology "characteristic 0" instead of the archaic phrase "characteristic $\infty$" for rings in which no sum of l's is zero).
+\\
+\\ \hspace*{-2cm} (b) Determine the characteristics of the rings $\mathbb{Q}$, $\mathbb{Z}[x]$, $\mathbb{Z}$/\textit{n}$\mathbb{Z}[x]$.
+\\
+\\ \hspace*{-2cm} (c) Prove that if $p$ is a prime and if $R$ is a commutative ring of characteristic $p$, then 
+\begin{center}
+$(a +b)^p = a^p +b^p$ for all $a, b \in R$.
+\end{center}
+\newpage
+\hspace{0.1cm}
+\newpage
+\section*{\hspace{-1.63cm}7.3.28\Large{} \normalfont Prove that an integral domain has characteristic $p$, where $p$ is either a prime or 0 (cf. Exercise 26).}
+\newpage
+\section*{\hspace{-1.75cm}7.4.10\Large{} \normalfont Assume $R$ is commutative.\hspace{0.15cm}Prove that if $P$ is a prime ideal of $R$, and $P$ contains no zero divisors then $R$ is an integral domain.}
+\newpage
+\section*{\hspace{-1cm}Problem A\Large{} \normalfont 
+\\
+\\ (i) Let $R$ be an integral domain. As you conjectured in class, prove that the units in $R[x]$ are precisely the constant polynomials $p(x)=u$ where $u$ is a unit in $R$.
+\\
+\\ (ii) On the other hand, show that $p(x)=1+2x$ is a unit in $R[x]$, where $R=\mathbb{Z}$/4$\mathbb{Z}$.}}
+\end{document}
